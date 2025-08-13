@@ -20,31 +20,18 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Tarefa 4
 - [ ] Tarefa 5
 
-## 💻 Pré-requisitos
+## ☕  Tecnologias do Projeto
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
+Nosso Projeto foi desenvolvido com as seguintes tecnologias:
 
-- Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-- Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+- React.JS
+- Tailwind.CSS
 
-## 🚀 Instalando <nome_do_projeto>
+## 🚀  Wireframe do Projeto
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+Imagens do figma 
 
-Linux e macOS:
-
-```
-<comando_de_instalação>
-```
-
-Windows:
-
-```
-<comando_de_instalação>
-```
-
-## ☕ Usando <nome_do_projeto>
+## 💻 Usando <nome_do_projeto>
 
 Para usar <nome_do_projeto>, siga estas etapas:
 
