@@ -3,8 +3,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/ArtMix532/Laboratorio-Desenvolvimento-Portfolio)
 ![GitHub language count](https://img.shields.io/github/languages/count/ArtMix532/Laboratorio-Desenvolvimento-Portfolio)
 ![GitHub forks](https://img.shields.io/github/forks/ArtMix532/Laboratorio-Desenvolvimento-Portfolio)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
 <img src="imagem.png" alt="Exemplo imagem">
 
