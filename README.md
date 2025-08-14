@@ -26,7 +26,7 @@ Nosso Projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚀  Wireframe do Projeto
 
-Imagens do figma 
+<img src="wireframe.png" alt="wireframe do projeto">
 
 ## 💻 Usando <nome_do_projeto>
 
