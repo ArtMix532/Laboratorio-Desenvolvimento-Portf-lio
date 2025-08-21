@@ -7,6 +7,8 @@ export default withMT({
     extend: {},
     fontFamily: {
       oswald: ["Oswald", "sans-serif"],
+      sans: ["Ubuntu", "sans-serif"],
+      ubuntu: ["Ubuntu", "sans-serif"],
     },
     colors: {
       slate: {
@@ -18,6 +20,7 @@ export default withMT({
         500: "#64748b",
         600: "#475569",
         700: "#334155",
+        800: "#1e293b",
       },
     },
   },

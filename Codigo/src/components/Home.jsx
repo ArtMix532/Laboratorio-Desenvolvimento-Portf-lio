@@ -1,5 +1,5 @@
 import waveImage from "../assets/wave3.svg";
-import imageHome from "../assets/image.png";
+// import imageHome from "../assets/image.png";
 
 function Home() {
   return (
@@ -14,7 +14,7 @@ function Home() {
           </h1>
           <p className="font-bold text-5xl md:text-8xl ">Davi Benjamim</p>
         </div>
-        <img src={imageHome} alt="" />
+        {/* <img src={imageHome} alt="" /> */}
       </div>
       <div className=" flex items-end">
         <img className="" src={waveImage} alt="Wave" />

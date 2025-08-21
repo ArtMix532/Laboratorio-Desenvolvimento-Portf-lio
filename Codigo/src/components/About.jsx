@@ -3,6 +3,7 @@ import PageTitle from "./PageTitle";
 import { USER_INFO } from "../constants";
 import { Alert } from "@material-tailwind/react";
 import DownloadButton from "./DownloadButton";
+import { Contact } from "./contact";
 
 export function AlertIcon() {
   return (
@@ -66,7 +67,7 @@ function About() {
               aliquam sequi nesciunt excepturi tempora eligendi quas. Vero.
             </p>
 
-            <div className="flex flex-col gap-4 md:grid md:grid-cols-2 lg:gap-2 border-2 p-4 rounded border-blue-900">
+            {/* <div className="flex flex-col gap-4 md:grid md:grid-cols-2 lg:gap-2 border-2 p-4 rounded border-blue-900">
               <div className="flex gap-1 items-center">
                 <h1 className="font-bold">Name: </h1>
                 <button
@@ -121,10 +122,11 @@ function About() {
                   {USER_INFO.university}
                 </button>
               </div>
-            </div>
+            </div> 
             <div className="flex mx-auto content-center">
               <DownloadButton />
-            </div>
+            </div>*/}
+            <Contact />
           </div>
         </div>
       </div>
