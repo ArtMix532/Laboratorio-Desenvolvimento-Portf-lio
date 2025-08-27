@@ -1,0 +1,23 @@
+{
+  "name": "laboratorio-desenvolvimento-portfolio",
+  "version": "1.0.0",
+  "description": "![GitHub repo size](https://img.shields.io/github/repo-size/ArtMix532/Laboratorio-Desenvolvimento-Portfolio) ![GitHub language count](https://img.shields.io/github/languages/count/ArtMix532/Laboratorio-Desenvolvimento-Portfolio) ![GitHub forks](https://img.shields.io/github/forks/ArtMix532/Laboratorio-Desenvolvimento-Portfolio)",
+  "homepage": "https://github.com/ArtMix532/Laboratorio-Desenvolvimento-Portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/ArtMix532/Laboratorio-Desenvolvimento-Portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtMix532/Laboratorio-Desenvolvimento-Portfolio.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "daisyui": "^5.0.51"
+  }
+}

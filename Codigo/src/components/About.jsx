@@ -4,6 +4,8 @@ import { USER_INFO } from "../constants";
 import { Alert } from "@material-tailwind/react";
 import DownloadButton from "./DownloadButton";
 import { Contact } from "./contact";
+import Wave from "../assets/wave9.svg";
+import FotoPerfil from "../assets/imagemTeste.jpg";
 
 export function AlertIcon() {
   return (
@@ -58,7 +60,7 @@ function About() {
           {alertaVisivel && <AlertIcon />}
         </div>
         <div className="flex flex-col lg:flex-row lg:pb-4 gap-4">
-          <img src="https://placehold.co/400x500" alt="" />
+          <img src="https://placehold.co/400x500" alt=""  />
           <div className="grid grid-rows-3 gap-6">
             <p className="font-medium content-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -126,9 +128,12 @@ function About() {
             <div className="flex mx-auto content-center">
               <DownloadButton />
             </div>*/}
-            <Contact />
+            
           </div>
         </div>
+      </div>
+      <div className=" w-screen bg-slate-300">
+        {/* <img src={Wave} alt="" /> */}
       </div>
     </div>
   );

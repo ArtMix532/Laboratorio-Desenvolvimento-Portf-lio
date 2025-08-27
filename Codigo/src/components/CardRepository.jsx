@@ -7,9 +7,10 @@ import {
 } from "@material-tailwind/react";
 import { ChipVariants } from "./Chip";
 
+
 export function CardWithLink({ Title, Url, Description, Tags }) {
   return (
-    <Card className="mt-6 w-96 bg-slate-100">
+    <Card className="mt-6 w-96 bg-slate-100 carousel-item">
       <CardBody>
         <svg
           xmlns="http://www.w3.org/2000/svg"
