@@ -29,7 +29,7 @@ function Api() {
   // }, []);
 
   return (
-    <div id="Portfolio" className="pb-10 w-screen bg-slate-300 px-32">
+    <div id="Portfolio" className="pb-10 w-screen bg-slate-300 px-10 lg:px-32">
       <PageTitle title="Repositories" />
       <div className="flex justify-center">
         <ProfileCard
@@ -49,6 +49,8 @@ function Api() {
           />
         ))}
       </div> */}
+
+      {/* Coloque o component aq  */}
     </div>
   );
 }
