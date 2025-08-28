@@ -51,7 +51,7 @@ export function Contact() {
           <div className="flex gap-4 m-auto flex-col lg:flex-row">
             <div className="flex flex-col gap-6 lg:w-1/2 justify-center">
               <div className="flex flex-col items-center gap-[20px]">
-                <div className="border-2 lg:w-[80%]  p-2 bg-gray-300 flex gap-1 shadow-md rounded-xl">
+                <div className="border-2 lg:w-[80%] w-full p-2 bg-gray-300 flex gap-1 shadow-md rounded-xl">
                   <div className="p-3 rounded-xl">
                     <Mail color="#334155" />
                   </div>
