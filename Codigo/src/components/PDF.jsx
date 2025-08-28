@@ -19,7 +19,7 @@ const PdfViewer = () => {
           style={{ border: "none" }}
         >
           Este navegador não suporta a incorporação de PDF. Você pode
-          <a href="caminho/para/seu/arquivo.pdf">fazer o download do PDF</a>.
+          <a href={CV}>fazer o download do PDF</a>.
         </iframe>
       </div>
     </div>

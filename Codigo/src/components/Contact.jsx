@@ -62,7 +62,7 @@ export function Contact() {
       <div id="Contact" className=" w-screen bg-slate-700 pt-8">
         <div className="px-6 lg:px-32 pb-6">
           <div className="flex mb-4">
-            <h1 className="text-gray-400 font-bold text-3xl ">Contact</h1>
+            <h1 className="text-gray-400 font-bold text-3xl font-ubuntu">Contact</h1>
           </div>
 
           <div className="flex gap-4 m-auto flex-col lg:flex-row">

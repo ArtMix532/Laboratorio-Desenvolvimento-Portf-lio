@@ -16,10 +16,10 @@ export function ProfileCard({ Img, Name, Url }) {
         <img src={Img} alt="profile-picture" />
       </CardHeader>
       <CardBody className="text-center">
-        <Typography variant="h4" color="blue-gray" className="mb-2">
+        <Typography variant="h4" color="blue-gray" className="mb-2 font-ubuntu">
           {Name}
         </Typography>
-        <Typography color="blue-gray" className="font-medium" textGradient>
+        <Typography color="blue-gray" className="font-medium font-ubuntu" textGradient>
           Full Stack Developer
         </Typography>
       </CardBody>
