@@ -48,7 +48,7 @@ Caso queira entrar em contato conosco:
   [Davi Benjamim Guimarães](https://www.linkedin.com/in/jonas-martins-158544178/)\
   [Albert Luís Pereira de Jesus](https://www.linkedin.com/in/jonas-martins-158544178/)
   
-- 🐙 LinkedIn:\ 
-  [Jonas Rafael Martins](https://github.com/Kjonps)\
+- 🐙 GitHub:\
+  \[Jonas Rafael Martins](https://github.com/Kjonps)\
   [Davi Benjamim Guimarães](https://www.linkedin.com/in/jonas-martins-158544178/)\
   [Albert Luís Pereira de Jesus](https://www.linkedin.com/in/jonas-martins-158544178/)
