@@ -31,8 +31,8 @@ O projeto será disponibilizado online para acesso direto, sem necessidade de in
 *(Adicionar aqui um print da página inicial ou uma gif mostrando a navegação)*  
 
 ## 👥 Integrantes  
-- Nome 1  
-- Nome 2  
+- Jonas Rafael Martins 
+- Davi Benjamim Guimarães
 - Nome 3  
 
 ## 📬 Contato  
