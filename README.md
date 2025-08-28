@@ -46,6 +46,6 @@ Caso queira entrar em contato conosco:
 - 🔗 LinkedIn\
   [Jonas Rafael Martins](https://www.linkedin.com/in/jonas-martins-158544178/)\
   [Jonas Rafael Martins](https://www.linkedin.com/in/jonas-martins-158544178/)\
-  [Jonas Rafael Martins](https://www.linkedin.com/in/jonas-martins-158544178/)\
+  [Jonas Rafael Martins](https://www.linkedin.com/in/jonas-martins-158544178/)
   
 - 🐙 [GitHub](#)  
