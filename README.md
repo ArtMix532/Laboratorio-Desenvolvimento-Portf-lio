@@ -7,7 +7,10 @@ Este é o nosso portfólio desenvolvido em **React**, com o objetivo de apresent
 - HTML5  
 - CSS3  
 - JavaScript (ES6+)  
-- Git & GitHub  
+- Git & GitHub
+
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="50" height="50"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="50" height="50"/> </a> 
+
 
 ## 🖥️ Funcionalidades  
 - **Seção Sobre Nós**: introdução coletiva e informações básicas sobre cada integrante.  
@@ -28,18 +31,19 @@ O projeto será disponibilizado online para acesso direto, sem necessidade de in
 🔗 [Link do Portfólio](#) *(adicionar depois do deploy)*  
 
 ## 📸 Preview  
-*(Adicionar aqui um print da página inicial ou uma gif mostrando a navegação)*  
+<img src="image/wireframe.png" alt="wireframe do projeto"> 
 
 ## 👥 Integrantes  
 - Jonas Rafael Martins 
 - Davi Benjamim Guimarães
-- Nome 3  
+- Albert Luís Pereira de Jesus 
 
 ## 📬 Contato  
 Caso queira entrar em contato conosco:  
 - ✉️ Email:
-  [jonasrmartins17@gmail.com](mailto:jonasrmartins17@gmail.com)
-  [davibenjamimguimaraes@gmail.com](mailto:davibenjamimguimaraes@gmail.com)
-  [albertluis123y88@gmail.comemail@email.com](mailto:albertluis123y88@gmail.com)
+- [jonasrmartins17@gmail.com](mailto:jonasrmartins17@gmail.com)
+- [davibenjamimguimaraes@gmail.com](mailto:davibenjamimguimaraes@gmail.com)
+- [albertluis123y88@gmail.comemail@email.com](mailto:albertluis123y88@gmail.com)
+
 - 🔗 [LinkedIn](#)  
 - 🐙 [GitHub](#)  
