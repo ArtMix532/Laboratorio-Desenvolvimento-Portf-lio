@@ -26,9 +26,7 @@ Este é o nosso portfólio desenvolvido em **React**, com o objetivo de apresent
 4. **Contato** → formulário para envio de mensagens diretamente para nós.  
 
 ## 🌐 Deploy  
-O projeto será disponibilizado online para acesso direto, sem necessidade de instalação.  
-
-🔗 [Link do Portfólio](#) *(adicionar depois do deploy)*  
+O projeto será disponibilizado online para acesso direto, sem necessidade de instalação.   
 
 ## 📸 Preview  
 <img src="image/wireframe.png" alt="wireframe do projeto"> 
