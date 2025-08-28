@@ -7,7 +7,7 @@ import {
   Tooltip,
 } from "@material-tailwind/react";
 import { Github, Linkedin, Mail } from "lucide-react";
-import { Links } from "../constants";
+import { Links } from "../data/constants";
 
 export function ProfileCard({ Img, Name, Url }) {
   return (

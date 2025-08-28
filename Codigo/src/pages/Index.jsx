@@ -5,11 +5,13 @@ import Footer from "../components/Footer";
 import { Contact } from "../components/contact";
 import Api from "../components/Api";
 import Resume from "../components/ProfessionalResume";
+import Nav from "../components/NavTeste";
 
 function Index() {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
+      <Nav />
       <Home />
       <About />
 

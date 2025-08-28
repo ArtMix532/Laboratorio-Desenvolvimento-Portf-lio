@@ -4,10 +4,10 @@ const PdfViewer = () => {
   return (
     <div className="flex justify-center items-center h-screen flex-col gap-2">
       <div>
-        <button className="lg:w-72 w-40 border-2 border-gray-500  p-4 bg-gray-400 hover:border-slate-500 text-xl font-bold">
+        <button className="lg:w-72 w-40 border-2 border-Neutral-400 font-ubuntu  p-4 bg-gray-300 hover:border-Neutral-400 text-xl font-bold">
           Portuguese
         </button>
-        <button className="lg:w-72 w-40 border-2 border-gray-600  p-4 bg-gray-500 hover:border-slate-500 text-xl font-bold">
+        <button className="lg:w-72 w-40 border-2 border-gray-600 font-ubuntu hover:bg-gray-200 transition-colors p-4 bg-Neutral-400 hover:border-Neutral-500 text-xl font-bold">
           English
         </button>
       </div>

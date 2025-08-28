@@ -18,6 +18,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "daisyui": "^5.0.51"
+    "daisyui": "^5.0.51",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.8.2"
   }
 }

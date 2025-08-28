@@ -1,5 +1,5 @@
 import { Instagram, Github, Linkedin, Mail } from "lucide-react";
-import { Links } from "../constants";
+import { Links } from "../data/constants";
 
 function footer() {
   return (

@@ -9,7 +9,7 @@ function Home() {
     >
       <div className="flex gap-8 ">
         <div className="mx-auto content-center">
-          <h1 className="font-bold text-3xl md:text-6xl text-gray-300">
+          <h1 className="font-bold font-ubuntu text-3xl md:text-6xl text-gray-300">
             Hello World, I`m{" "}
           </h1>
           <p className="font-bold text-5xl md:text-8xl ">Davi Benjamim</p>
