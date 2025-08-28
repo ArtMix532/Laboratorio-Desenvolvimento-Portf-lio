@@ -10,7 +10,7 @@ import { ChipVariants } from "./Chip";
 
 export function CardWithLink({ Title, Url, Description, Tags }) {
   return (
-    <Card className="mt-6 w-96 bg-slate-100 carousel-item justify-between">
+    <Card className="mt-6 w-11/12 lg:w-96 bg-slate-100 carousel-item justify-between">
       <CardBody>
         <svg
           xmlns="http://www.w3.org/2000/svg"

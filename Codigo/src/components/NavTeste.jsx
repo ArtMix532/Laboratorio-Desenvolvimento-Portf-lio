@@ -9,10 +9,11 @@ const ROUTES = {
 };
 
 const links = [
-  { id: 1, name: "Início", url: "/" },
-  { id: 2, name: "Sobre", url: "/sobre" },
-  { id: 3, name: "Projetos", url: "/projetos" },
-  { id: 4, name: "Contato", url: "/contato" },
+  { id: 1, name: "Home", url: "#Home" },
+  { id: 2, name: "About Me", url: "#About" },
+  { id: 3, name: "Resume", url: "#Resume" },
+  { id: 4, name: "Contact", url: "#Contacts" },
+  { id: 5, name: "Projects", url: "#Projects" },
 ];
 
 const Nav = () => {

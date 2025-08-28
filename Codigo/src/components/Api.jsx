@@ -40,24 +40,22 @@ function Api() {
             Url={profile.html_url}
           />
         </div>
-
-        {/* Scroller: vários cards lado a lado */}
-        <div className="carousel carousel-center w-full p-4 space-x-4 rounded-box bg-transparent">
-          {repositories.map((repository) => (
-            <div key={repository.id} className="carousel-item w-96">
-              <CardWithLink
-                Title={repository.name}
-                Url={repository.html_url}
-                Description={repository.description}
-                Tags={repository.topics}
-              />
-            </div>
-          ))}
-        </div>
+      </div>
+      {/* Scroller: vários cards lado a lado */}
+      <div className="carousel carousel-center w-full p-4 space-x-4 rounded-box bg-transparent">
+        {repositories.map((repository) => (
+          <div key={repository.id} className="carousel-item px-2 w-96 ">
+            <CardWithLink
+              Title={repository.name}
+              Url={repository.html_url}
+              Description={repository.description}
+              Tags={repository.topics}
+            />
+          </div>
+        ))}
       </div>
     </section>
   );
-
 }
 
 export default Api;
