@@ -4,17 +4,31 @@ import { USER_INFO } from "../data/constants";
 import waveImage from "../assets/wave3.svg";
 
 export function Contact() {
-  async function enviarMensagem() {
-    const endpoint = "https://formspree.io/f/mandnrvo"; // Substitua pelo seu endpoint
+  // Certifique-se de que essa função esteja dentro do seu componente React
+  const enviarMensagem = async () => {
+    const endpoint = "https://formspree.io/f/xxxxxxxx"; // Substitua pelo seu endpoint Formspree
 
-    // Dados que você coletou do seu formulário ou de outra fonte
+    // 1. Pegue os valores dos inputs usando os IDs
+    const nome = document.getElementById("nome").value;
+    const email = document.getElementById("email").value;
+    const assunto = document.getElementById("assunto").value;
+    const mensagem = document.getElementById("mensagem").value;
+
+    // 2. Monte o objeto com os dados
     const dadosDoFormulario = {
-      nome: "João da Silva",
-      email: "joao.silva@exemplo.com",
-      assunto: "Dúvida sobre um produto",
-      mensagem: "Olá, gostaria de saber mais detalhes sobre o produto X.",
+      nome: nome,
+      email: email,
+      assunto: assunto,
+      mensagem: mensagem,
     };
 
+    // 3. Validação básica (opcional, mas recomendado)
+    if (!nome || !email || !mensagem) {
+      alert("Por favor, preencha todos os campos obrigatórios.");
+      return; // Interrompe a função se a validação falhar
+    }
+
+    // 4. Faça a requisição para o Formspree
     try {
       const resposta = await fetch(endpoint, {
         method: "POST",
@@ -25,20 +39,23 @@ export function Contact() {
         body: JSON.stringify(dadosDoFormulario),
       });
 
-      // O Formspree retorna uma resposta que você pode usar para confirmar o envio
       if (resposta.ok) {
-        console.log("Mensagem enviada com sucesso!");
-        // Você pode exibir uma mensagem de sucesso para o usuário aqui
+        alert("Mensagem enviada com sucesso!");
+        // Opcional: Limpar o formulário após o envio
+        document.getElementById("nome").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("assunto").value = "";
+        document.getElementById("mensagem").value = "";
       } else {
-        console.error("Falha ao enviar a mensagem.");
         const erro = await resposta.json();
-        console.error(erro);
-        // Exiba uma mensagem de erro para o usuário
+        console.error("Falha ao enviar a mensagem:", erro);
+        alert("Ocorreu um erro ao enviar a mensagem. Tente novamente.");
       }
     } catch (error) {
       console.error("Ocorreu um erro na requisição:", error);
+      alert("Ocorreu um erro de conexão. Verifique sua internet.");
     }
-  }
+  };
 
   return (
     <>
@@ -115,10 +132,11 @@ export function Contact() {
             <div className="card card-dash bg-neutral-content text-neutral w-full lg:w-1/2 font-ubuntu">
               <div className="card-body justify-between gap-5">
                 <div className="grid gap-5">
-                  <div className="flex gap-5 justify-between">
+                  <div className="flex gap-5 justify-between ">
                     <fieldset className="fieldset">
                       <legend className="fieldset-legend">Name</legend>
                       <input
+                        id="nome"
                         type="text"
                         className="input"
                         placeholder="Your full name"
@@ -128,6 +146,7 @@ export function Contact() {
                     <fieldset className="fieldset">
                       <legend className="fieldset-legend">Email</legend>
                       <input
+                        id="email"
                         type="text"
                         className="input"
                         placeholder="your.email@example.com"
@@ -139,81 +158,29 @@ export function Contact() {
                     <fieldset className="fieldset">
                       <legend className="fieldset-legend">Subject</legend>
                       <input
+                        id="assunto"
                         type="text"
                         className="input w-full"
                         placeholder="What is this about?"
                       />
                     </fieldset>
                     <textarea
-                      placeholder="Neutral"
+                      id="mensagem"
+                      placeholder="Your message..."
                       className="textarea h-36 w-full"
                     ></textarea>
                   </div>
                 </div>
                 <div className="card-actions justify-end">
-                  <button className="btn bg-slate-700 text-neutral-content w-full">
+                  <button
+                    className="btn bg-slate-700 text-neutral-content w-full"
+                    onClick={enviarMensagem(1)}
+                  >
                     Send Message
                   </button>
                 </div>
               </div>
             </div>
-
-            {/* <div className="border-2 border-Neutral-400 p-2 bg-gray-300 lg:w-1/2">
-              <div className="flex gap-2 flex-col lg:flex-row">
-                <div className="flex flex-col lg:w-1/2">
-                  <span className="text-slate-700 font-bold text-sm font-ubuntu">
-                    Name
-                  </span>
-                  <input
-                    type="text"
-                    placeholder="Your full fame"
-                    name=""
-                    id=""
-                    className="border-2 font-ubuntu border-Neutral-400 px-2 py-1 text-gray-100 bg-Neutral-200"
-                  />
-                </div>
-                <div className="flex flex-col lg:w-1/2">
-                  <span className="text-slate-700 font-ubuntu font-bold text-sm">
-                    Email
-                  </span>
-                  <input
-                    type="text"
-                    placeholder="your.email@example.com"
-                    name=""
-                    id=""
-                    className="border-2 font-ubuntu border-Neutral-400 px-2 py-1  text-gray-100 bg-Neutral-200"
-                  />
-                </div>
-              </div>
-              <div>
-                <div className="flex flex-col">
-                  <span className="text-slate-700 font-ubuntu font-bold text-sm">
-                    Subject
-                  </span>
-                  <input
-                    type="text"
-                    placeholder="What is this about?"
-                    name=""
-                    id=""
-                    className="border-2 font-ubuntu border-Neutral-400 px-2 py-1  text-gray-100 bg-Neutral-200"
-                  />
-                </div>
-              </div>
-              <div className="flex flex-col">
-                <span className="text-slate-700 font-ubuntu font-bold text-sm">
-                  Message
-                </span>
-                <textarea
-                  name=""
-                  id=""
-                  placeholder="Your message..."
-                  className="border-2 font-ubuntu border-Neutral-400 px-2 py-1  text-gray-100 bg-Neutral-200 h-40"
-                ></textarea>
-              </div>
-              <button className="mt-2 border-2 border-Neutral-400 hover:bg-slate-600 transition bg-slate-700 py-2 w-full font-ubuntu font-bold text-slate-300">
-                Send Message
-              </button>
-            </div> */}
           </div>
         </div>
         <div className=" flex items-end">
