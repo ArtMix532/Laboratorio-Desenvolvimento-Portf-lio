@@ -44,5 +44,7 @@ Caso queira entrar em contato conosco:
 ** [albertluis123y88@gmail.com](mailto:albertluis123y88@gmail.com)
 
 - 🔗 LinkedIn
-  [Jonas](https://www.linkedin.com/in/jonas-martins-158544178/)  
+  [Jonas Rafael Martins](https://www.linkedin.com/in/jonas-martins-158544178/)\
+  [Jonas Rafael Martins](https://www.linkedin.com/in/jonas-martins-158544178/)\
+  [Jonas Rafael Martins](https://www.linkedin.com/in/jonas-martins-158544178/)\   
 - 🐙 [GitHub](#)  
