@@ -1,4 +1,4 @@
-import CV from "../assets/CVDaviBenjamim.pdf";
+import CV from "../assets/CVDaviGuimaraesIN.pdf";
 
 const PdfViewer = () => {
   return (
