@@ -29,30 +29,35 @@ function Api() {
   // }, []);
 
   return (
-    <div id="Portfolio" className="pb-10 w-screen bg-slate-300 px-6 lg:px-32">
-      <PageTitle title="Repositories" />
-      <div className="flex justify-center">
-        <ProfileCard
-          Name={profile.name}
-          Img={profile.avatar_url}
-          Url={profile.html_url}
-        />
-      </div>
-      <div className="grid grid-cols-3 gap-12 w-full content-center">
-        {repositories.map((repository) => (
-          <CardWithLink
-            Title={repository.name}
-            Url={repository.html_url}
-            Description={repository.description}
-            Tags={repository.topics}
-            key={repository.id}
-          />
-        ))}
-      </div>
+    <section id="Portfolio" className="pb-10 w-full bg-slate-300">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <PageTitle title="Repositories" />
 
-      {/* Coloque o component aq  */}
-    </div>
+        <div className="flex justify-center">
+          <ProfileCard
+            Name={profile.name}
+            Img={profile.avatar_url}
+            Url={profile.html_url}
+          />
+        </div>
+
+        {/* Scroller: vários cards lado a lado */}
+        <div className="carousel carousel-center w-full p-4 space-x-4 rounded-box bg-transparent">
+          {repositories.map((repository) => (
+            <div key={repository.id} className="carousel-item w-96">
+              <CardWithLink
+                Title={repository.name}
+                Url={repository.html_url}
+                Description={repository.description}
+                Tags={repository.topics}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
+
 }
 
 export default Api;

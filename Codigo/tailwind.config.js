@@ -101,5 +101,6 @@ export default withMT({
   },
   plugins: [
     require("tailwindcss-animate"), // ADICIONADO: Plugin para animações
+    require("daisyui"),
   ],
 });
