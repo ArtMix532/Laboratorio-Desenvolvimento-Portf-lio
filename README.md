@@ -60,7 +60,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="[https://github.com/SrGuzz.png](https://avatars.githubusercontent.com/u/165479715?v=4)" width="100px;" alt="Foto do Albert Luis"/><br>
+        <img src="https://avatars.githubusercontent.com/u/165479715?v=4" width="100px;" alt="Foto do Albert Luis"/><br>
         <sub>
           <b>Albert Luis</b>
         </sub>
