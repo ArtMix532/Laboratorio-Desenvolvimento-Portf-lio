@@ -43,5 +43,6 @@ Caso queira entrar em contato conosco:
 ** [davibenjamimguimaraes@gmail.com](mailto:davibenjamimguimaraes@gmail.com)
 ** [albertluis123y88@gmail.com](mailto:albertluis123y88@gmail.com)
 
-- 🔗 [LinkedIn](#)  
+- 🔗 [LinkedIn]
+  [Jonas](https://www.linkedin.com/in/jonas-martins-158544178/)  
 - 🐙 [GitHub](#)  
