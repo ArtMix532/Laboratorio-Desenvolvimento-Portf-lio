@@ -13,7 +13,7 @@ function Index() {
       {/* <NavBar /> */}
       <Nav />
       <Home />
-      <About />
+      {/* <About /> */}
 
       <Resume />
       <Contact />
