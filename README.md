@@ -1,3 +1,7 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/ArtMix532/Laboratorio-Desenvolvimento-Portfolio)
+![GitHub language count](https://img.shields.io/github/languages/count/ArtMix532/Laboratorio-Desenvolvimento-Portfolio)
+![GitHub forks](https://img.shields.io/github/forks/ArtMix532/Laboratorio-Desenvolvimento-Portfolio)
+
 # 📌 Portfólio Pessoal  
 
 Este é o nosso portfólio desenvolvido em **React**, com o objetivo de apresentar nossas habilidades em programação, nossos projetos e nossas experiências acadêmicas e profissionais.  
