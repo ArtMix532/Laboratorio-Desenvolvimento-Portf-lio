@@ -6,7 +6,7 @@
 
 <img src="imagem.png" alt="Exemplo imagem">
 
-> Este projeto é um portfólio desenvolvido para apresentar meus projetos e trabalhos na área de programação. Construído com React e estilizado com Tailwind CSS, ele oferece uma interface moderna e responsiva. O objetivo é demonstrar minhas habilidades técnicas, experiência profissional e criatividade no desenvolvimento web.
+> Este projeto é um portfólio desenvolvido para apresentar nossos projetos e trabalhos na área de programação. Construído com React e estilizado com Tailwind CSS, ele oferece uma interface moderna e responsiva. O objetivo é demonstrar nossas habilidades técnicas, experiências profissionais e criatividade no desenvolvimento web.
 
 ### Ajustes e melhorias
 
