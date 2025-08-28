@@ -39,9 +39,9 @@ O projeto será disponibilizado online para acesso direto, sem necessidade de in
 ## 📬 Contato  
 Caso queira entrar em contato conosco:  
 - ✉️ Email:
-**[jonasrmartins17@gmail.com](mailto:jonasrmartins17@gmail.com) \**
-** [davibenjamimguimaraes@gmail.com](mailto:davibenjamimguimaraes@gmail.com) \**
-** [albertluis123y88@gmail.comemail@email.com](mailto:albertluis123y88@gmail.com) \**
+** [jonasrmartins17@gmail.com](mailto:jonasrmartins17@gmail.com)
+** [davibenjamimguimaraes@gmail.com](mailto:davibenjamimguimaraes@gmail.com)
+** [albertluis123y88@gmail.com](mailto:albertluis123y88@gmail.com)
 
 - 🔗 [LinkedIn](#)  
 - 🐙 [GitHub](#)  
