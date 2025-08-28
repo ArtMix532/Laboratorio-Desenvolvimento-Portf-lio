@@ -63,7 +63,7 @@ export function Contact() {
                   </div>
                 </div>
 
-                <div className="border-2 lg:w-[80%]   p-2 bg-gray-300 flex gap-1 shadow-md rounded-xl">
+                <div className="border-2 lg:w-[80%] w-full   p-2 bg-gray-300 flex gap-1 shadow-md rounded-xl">
                   <div className="p-3">
                     <MapPin color="#334155" />
                   </div>
@@ -76,7 +76,7 @@ export function Contact() {
                 </div>
               </div>
 
-              <div className="flex justify-between lg:gap-4 mx-auto lg:w-[80%]">
+              <div className="flex justify-between lg:gap-4 gap-3 mx-auto lg:w-[80%]">
                 <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
                   <a href={Links.Github}>
                     {" "}
