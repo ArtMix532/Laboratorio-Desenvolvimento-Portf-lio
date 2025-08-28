@@ -38,7 +38,7 @@ function Api() {
           Url={profile.html_url}
         />
       </div>
-      {/* <div className="grid grid-cols-3 gap-12 w-full content-center">
+      <div className="grid grid-cols-3 gap-12 w-full content-center">
         {repositories.map((repository) => (
           <CardWithLink
             Title={repository.name}
@@ -48,7 +48,7 @@ function Api() {
             key={repository.id}
           />
         ))}
-      </div> */}
+      </div>
 
       {/* Coloque o component aq  */}
     </div>
