@@ -49,53 +49,57 @@ export function Contact() {
           </div>
 
           <div className="flex gap-4 m-auto flex-col lg:flex-row">
-            <div className="flex flex-col gap-2 lg:w-1/2">
-              <div className="border-2 lg:w-2/3 border-Neutral-400 p-2 bg-gray-300 flex gap-1 hover:border-Neutral-400">
-                <div className="border-2 border-Neutral-400 bg-Neutral-300 p-2 shadow-md">
-                  <Mail color="#334155" />
+            <div className="flex flex-col gap-6 lg:w-1/2 justify-center">
+              <div className="flex flex-col items-center gap-[20px]">
+                <div className="border-2 lg:w-[80%]  p-2 bg-gray-300 flex gap-1 shadow-md rounded-xl">
+                  <div className="p-3 rounded-xl">
+                    <Mail color="#334155" />
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-slate-700 font-bold font-ubuntu text-sm">
+                      Email
+                    </span>
+                    <span className="font-ubuntu ">{USER_INFO.email}</span>
+                  </div>
                 </div>
-                <div className="flex flex-col">
-                  <span className="text-slate-700 font-bold font-ubuntu text-sm">
-                    Email
-                  </span>
-                  <span className="font-ubuntu ">{USER_INFO.email}</span>
+
+                <div className="border-2 lg:w-[80%]   p-2 bg-gray-300 flex gap-1 shadow-md rounded-xl">
+                  <div className="p-3">
+                    <MapPin color="#334155" />
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-slate-700 font-bold font-ubuntu text-sm">
+                      Location
+                    </span>
+                    <span className="font-ubuntu">Belo Horizonte, Brasil</span>
+                  </div>
                 </div>
               </div>
-              <div className="border-2 lg:w-2/3  border-Neutral-400 p-2 bg-gray-300 flex gap-1 hover:border-Neutral-400">
-                <div className="border-2 border-Neutral-400 bg-Neutral-300 p-2 shadow-md">
-                  <MapPin color="#334155" />
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-slate-700 font-bold font-ubuntu text-sm">
-                    Location
-                  </span>
-                  <span className="font-ubuntu">Belo Horizonte, Brasil</span>
-                </div>
-              </div>
-              <div className="flex justify-between lg:justify-center lg:gap-4">
-                <div className="bg-gray-300 p-3 border-2 border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
+              
+              <div className="flex justify-between lg:gap-4 mx-auto lg:w-[80%]">
+                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
                   <a href={Links.Github}>
                     {" "}
                     <Github color="#334155" />
                   </a>
                 </div>
-                <div className="bg-gray-300 p-3 border-2 border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
+                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
                   <a href={Links.Email}>
                     <Mail color="#334155" />
                   </a>
                 </div>
-                <div className="bg-gray-300 p-3 border-2 border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
+                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
                   <a href={Links.Instagram}>
                     <Instagram color="#334155" />
                   </a>
                 </div>
-                <div className="bg-gray-300 p-3 border-2 border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
+                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
                   <a href={Links.Linkedin}>
                     {" "}
                     <Linkedin color="#334155" />
                   </a>
                 </div>
-                <div className="bg-gray-300 p-3 border-2 border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
+                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
                   <a href={Links.Linkedin}>
                     {" "}
                     <Linkedin color="#334155" />
@@ -107,7 +111,37 @@ export function Contact() {
                 usually reply within a day!
               </span>
             </div>
-            <div className="border-2 border-Neutral-400 p-2 bg-gray-300 lg:w-1/2">
+
+            <div className="card card-dash bg-neutral-content text-neutral w-full lg:w-1/2 font-ubuntu">
+              <div className="card-body justify-between gap-5">
+                <div className="grid gap-5">
+                  <div className="flex gap-5 justify-between">
+                    <fieldset className="fieldset">
+                      <legend className="fieldset-legend">Name</legend>
+                      <input type="text" className="input" placeholder="Your full name" />
+                    </fieldset>
+
+                    <fieldset className="fieldset">
+                      <legend className="fieldset-legend">Email</legend>
+                      <input type="text" className="input" placeholder="your.email@example.com" />
+                    </fieldset>
+                  </div>
+
+                  <div className="grid gap-5">
+                    <fieldset className="fieldset">
+                      <legend className="fieldset-legend">Subject</legend>
+                      <input type="text" className="input w-full" placeholder="What is this about?" />
+                    </fieldset>
+                    <textarea placeholder="Neutral" className="textarea h-36 w-full"></textarea>
+                  </div>
+                </div>
+                <div className="card-actions justify-end">
+                  <button className="btn bg-slate-700 text-neutral-content w-full">Send Message</button>
+                </div>
+              </div>
+            </div>
+
+            {/* <div className="border-2 border-Neutral-400 p-2 bg-gray-300 lg:w-1/2">
               <div className="flex gap-2 flex-col lg:flex-row">
                 <div className="flex flex-col lg:w-1/2">
                   <span className="text-slate-700 font-bold text-sm font-ubuntu">
@@ -162,7 +196,9 @@ export function Contact() {
               <button className="mt-2 border-2 border-Neutral-400 hover:bg-slate-600 transition bg-slate-700 py-2 w-full font-ubuntu font-bold text-slate-300">
                 Send Message
               </button>
-            </div>
+            </div> */}
+
+
           </div>
         </div>
         <div className=" flex items-end">

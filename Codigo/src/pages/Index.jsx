@@ -11,7 +11,7 @@ function Index() {
     <div>
       <Nav />
       <Home />
-      <About />
+      {/* <About /> */}
 
       <Resume />
       <Contact />
