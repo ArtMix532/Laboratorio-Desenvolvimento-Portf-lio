@@ -1,4 +1,3 @@
-import NavBar from "../components/NavBar";
 import Home from "../components/Home";
 import About from "../components/About";
 import Footer from "../components/Footer";
@@ -10,7 +9,6 @@ import Nav from "../components/NavTeste";
 function Index() {
   return (
     <div>
-      {/* <NavBar /> */}
       <Nav />
       <Home />
       <About />
