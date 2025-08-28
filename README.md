@@ -4,7 +4,6 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/ArtMix532/Laboratorio-Desenvolvimento-Portfolio)
 ![GitHub forks](https://img.shields.io/github/forks/ArtMix532/Laboratorio-Desenvolvimento-Portfolio)
 
-<img src="imagem.png" alt="Exemplo imagem">
 
 > Este projeto é um portfólio desenvolvido para apresentar nossos projetos e trabalhos na área de programação. Construído com React e estilizado com Tailwind CSS, ele oferece uma interface moderna e responsiva. O objetivo é demonstrar nossas habilidades técnicas, experiências profissionais e criatividade no desenvolvimento web.
 
