@@ -43,14 +43,6 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://github.com/bernardocdm.png" width="100px;" alt="Foto do Bernardo Carvalho"/><br>
-        <sub>
-          <b>Bernardo Carvalho</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#" title="defina o título do link">
         <img src="https://github.com/SrGuzz.png" width="100px;" alt="Foto do Albert Luis"/><br>
         <sub>
           <b>Albert Luis</b>
