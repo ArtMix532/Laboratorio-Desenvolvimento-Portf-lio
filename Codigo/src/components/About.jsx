@@ -22,7 +22,7 @@ function About() {
               praesentium, quaerat consectetur similique, dolorem quisquam nihil
               aliquam sequi nesciunt excepturi tempora eligendi quas. Vero.
             </span>
-            <TimelineWithIcon />
+            {/* <TimelineWithIcon /> */}
           </div>
         </div>
       </div>

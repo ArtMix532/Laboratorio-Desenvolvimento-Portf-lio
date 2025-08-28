@@ -83,7 +83,7 @@ const Nav = () => {
 
       {/* Menu Dropdown Mobile */}
       {nav && (
-        <ul className="md:hidden transition duration-200 bg-slate-100 border p-2 flex flex-col items-left absolute z-30 top-[72px] right-0 w-[200px] bg-background">
+        <ul className="md:hidden transition duration-200 bg-slate-300 border p-2 flex flex-col rounded-b items-left absolute z-30 top-[72px] right-0 w-[200px] bg-background">
           {links.map(({ id, url, name }) => (
             <li
               key={id}

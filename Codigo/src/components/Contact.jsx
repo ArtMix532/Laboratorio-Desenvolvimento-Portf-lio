@@ -1,4 +1,4 @@
-import { Instagram, Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { Instagram, Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { Links } from "../data/constants";
 import { USER_INFO } from "../data/constants";
 import waveImage from "../assets/wave3.svg";
@@ -75,7 +75,7 @@ export function Contact() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="flex justify-between lg:gap-4 mx-auto lg:w-[80%]">
                 <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
                   <a href={Links.Github}>
@@ -100,9 +100,9 @@ export function Contact() {
                   </a>
                 </div>
                 <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
-                  <a href={Links.Linkedin}>
+                  <a href={USER_INFO.phone}>
                     {" "}
-                    <Linkedin color="#334155" />
+                    <Phone color="#334155" />
                   </a>
                 </div>
               </div>
@@ -118,25 +118,42 @@ export function Contact() {
                   <div className="flex gap-5 justify-between">
                     <fieldset className="fieldset">
                       <legend className="fieldset-legend">Name</legend>
-                      <input type="text" className="input" placeholder="Your full name" />
+                      <input
+                        type="text"
+                        className="input"
+                        placeholder="Your full name"
+                      />
                     </fieldset>
 
                     <fieldset className="fieldset">
                       <legend className="fieldset-legend">Email</legend>
-                      <input type="text" className="input" placeholder="your.email@example.com" />
+                      <input
+                        type="text"
+                        className="input"
+                        placeholder="your.email@example.com"
+                      />
                     </fieldset>
                   </div>
 
                   <div className="grid gap-5">
                     <fieldset className="fieldset">
                       <legend className="fieldset-legend">Subject</legend>
-                      <input type="text" className="input w-full" placeholder="What is this about?" />
+                      <input
+                        type="text"
+                        className="input w-full"
+                        placeholder="What is this about?"
+                      />
                     </fieldset>
-                    <textarea placeholder="Neutral" className="textarea h-36 w-full"></textarea>
+                    <textarea
+                      placeholder="Neutral"
+                      className="textarea h-36 w-full"
+                    ></textarea>
                   </div>
                 </div>
                 <div className="card-actions justify-end">
-                  <button className="btn bg-slate-700 text-neutral-content w-full">Send Message</button>
+                  <button className="btn bg-slate-700 text-neutral-content w-full">
+                    Send Message
+                  </button>
                 </div>
               </div>
             </div>
@@ -197,8 +214,6 @@ export function Contact() {
                 Send Message
               </button>
             </div> */}
-
-
           </div>
         </div>
         <div className=" flex items-end">

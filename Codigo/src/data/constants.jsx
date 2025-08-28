@@ -1,6 +1,6 @@
 export const USER_INFO = {
   name: "Davi Benjamim Guimaraes",
-  phone: "+55 (31) 98496-7344",
+  phone: "tel:+5531984967344",
   age: 19,
   address: "Belo Horizonte, Brasil",
   email: "davibenjamimguimaraes@gmail.com",
