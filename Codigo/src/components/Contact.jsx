@@ -6,7 +6,7 @@ import waveImage from "../assets/wave3.svg";
 export function Contact() {
   // Certifique-se de que essa função esteja dentro do seu componente React
   const enviarMensagem = async () => {
-    const endpoint = "https://formspree.io/f/xxxxxxxx"; // Substitua pelo seu endpoint Formspree
+    const endpoint = "https://formspree.io/f/mandnrvo"; // Substitua pelo seu endpoint Formspree
 
     // 1. Pegue os valores dos inputs usando os IDs
     const nome = document.getElementById("nome").value;
@@ -174,7 +174,7 @@ export function Contact() {
                 <div className="card-actions justify-end">
                   <button
                     className="btn bg-slate-700 text-neutral-content w-full"
-                    onClick={enviarMensagem(1)}
+                    onClick={enviarMensagem()}
                   >
                     Send Message
                   </button>
