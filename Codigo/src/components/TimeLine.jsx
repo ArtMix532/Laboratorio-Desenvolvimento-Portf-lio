@@ -12,7 +12,7 @@ import { Time_Line } from "../data/constants";
 
 export function TimelineWithIcon() {
   return (
-    <div className="w-[32rem]">
+    <div className="">
       <Timeline>
         {Time_Line.map((item, index) => (
           <TimelineItem key={index}>
