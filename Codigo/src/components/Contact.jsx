@@ -42,7 +42,7 @@ export function Contact() {
 
   return (
     <>
-      <div id="Contact" className=" w-screen bg-slate-700 pt-8">
+      <div id="Contact" className=" bg-slate-700 pt-8">
         <div className="px-6 lg:px-32 pb-6">
           <div className="flex mb-4">
             <h1 className="text-gray-400 font-bold text-3xl ">Contact</h1>
@@ -77,32 +77,26 @@ export function Contact() {
               </div>
               
               <div className="flex justify-between lg:gap-4 mx-auto lg:w-[80%]">
-                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
+                <div className=" py-5 px-10 rounded-xl bg-neutral">
                   <a href={Links.Github}>
                     {" "}
-                    <Github color="#334155" />
+                    <Github color="#fff" />
                   </a>
                 </div>
-                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
-                  <a href={Links.Email}>
-                    <Mail color="#334155" />
-                  </a>
-                </div>
-                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
+                <div className=" py-5 px-10 rounded-xl bg-gradient-to-br from-[#b60fcf]  to-[#fd7601]">
                   <a href={Links.Instagram}>
-                    <Instagram color="#334155" />
+                    <Instagram color="#fff" />
                   </a>
                 </div>
-                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
-                  <a href={Links.Linkedin}>
-                    {" "}
-                    <Linkedin color="#334155" />
+                <div className=" py-5 px-10 rounded-xl bg-[#2F2F2F]">
+                  <a href={Links.Email}>
+                    <Mail color="#fff" />
                   </a>
                 </div>
-                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
+                <div className=" py-5 px-10 rounded-xl bg-[#0967C2]">
                   <a href={Links.Linkedin}>
                     {" "}
-                    <Linkedin color="#334155" />
+                    <Linkedin color="#fff" />
                   </a>
                 </div>
               </div>
@@ -116,14 +110,14 @@ export function Contact() {
               <div className="card-body justify-between gap-5">
                 <div className="grid gap-5">
                   <div className="flex gap-5 justify-between">
-                    <fieldset className="fieldset">
+                    <fieldset className="fieldset w-1/2">
                       <legend className="fieldset-legend">Name</legend>
-                      <input type="text" className="input" placeholder="Your full name" />
+                      <input type="text" className="input w-full" placeholder="Your full name" />
                     </fieldset>
 
-                    <fieldset className="fieldset">
+                    <fieldset className="fieldset w-1/2">
                       <legend className="fieldset-legend">Email</legend>
-                      <input type="text" className="input" placeholder="your.email@example.com" />
+                      <input type="text" className="input w-full" placeholder="your.email@example.com" />
                     </fieldset>
                   </div>
 
@@ -140,65 +134,6 @@ export function Contact() {
                 </div>
               </div>
             </div>
-
-            {/* <div className="border-2 border-Neutral-400 p-2 bg-gray-300 lg:w-1/2">
-              <div className="flex gap-2 flex-col lg:flex-row">
-                <div className="flex flex-col lg:w-1/2">
-                  <span className="text-slate-700 font-bold text-sm font-ubuntu">
-                    Name
-                  </span>
-                  <input
-                    type="text"
-                    placeholder="Your full fame"
-                    name=""
-                    id=""
-                    className="border-2 font-ubuntu border-Neutral-400 px-2 py-1 text-gray-100 bg-Neutral-200"
-                  />
-                </div>
-                <div className="flex flex-col lg:w-1/2">
-                  <span className="text-slate-700 font-ubuntu font-bold text-sm">
-                    Email
-                  </span>
-                  <input
-                    type="text"
-                    placeholder="your.email@example.com"
-                    name=""
-                    id=""
-                    className="border-2 font-ubuntu border-Neutral-400 px-2 py-1  text-gray-100 bg-Neutral-200"
-                  />
-                </div>
-              </div>
-              <div>
-                <div className="flex flex-col">
-                  <span className="text-slate-700 font-ubuntu font-bold text-sm">
-                    Subject
-                  </span>
-                  <input
-                    type="text"
-                    placeholder="What is this about?"
-                    name=""
-                    id=""
-                    className="border-2 font-ubuntu border-Neutral-400 px-2 py-1  text-gray-100 bg-Neutral-200"
-                  />
-                </div>
-              </div>
-              <div className="flex flex-col">
-                <span className="text-slate-700 font-ubuntu font-bold text-sm">
-                  Message
-                </span>
-                <textarea
-                  name=""
-                  id=""
-                  placeholder="Your message..."
-                  className="border-2 font-ubuntu border-Neutral-400 px-2 py-1  text-gray-100 bg-Neutral-200 h-40"
-                ></textarea>
-              </div>
-              <button className="mt-2 border-2 border-Neutral-400 hover:bg-slate-600 transition bg-slate-700 py-2 w-full font-ubuntu font-bold text-slate-300">
-                Send Message
-              </button>
-            </div> */}
-
-
           </div>
         </div>
         <div className=" flex items-end">

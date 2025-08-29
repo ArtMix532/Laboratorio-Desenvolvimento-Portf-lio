@@ -2,7 +2,7 @@ import waveImage from "../assets/wave3.svg";
 
 function Home() {
   return (
-    <div id="Home" className="h-screen bg-slate-700 w-screen flex flex-col justify-between pt-40">
+    <div id="Home" className=" bg-slate-700 flex flex-col justify-between pt-40">
       <div className="flex gap-8 ">
         <div className="mx-auto content-center">
           <h1 className="font-bold font-ubuntu text-3xl md:text-6xl text-gray-300">

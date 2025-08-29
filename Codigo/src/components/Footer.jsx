@@ -5,11 +5,11 @@ import Wave from "../assets/wave14.svg";
 function footer() {
   return (
     <>
-      <div className=" w-screen bg-slate-300">
+      <div className=" bg-slate-300">
         <img src={Wave} alt="" />
       </div>
       <footer className="bg-slate-700 px-4 md:px-16 lg:px-28">
-        <div className="flex text-center gap-8 py-4 lg:px-28 ">
+        <div className="flex text-center gap-8 py-4 lg:px-28 w-full justify-center">
           <div className="text-center">
             <h2 className="text-lg font-bold mb-4 text-slate-200 font-ubuntu">
               About Us
