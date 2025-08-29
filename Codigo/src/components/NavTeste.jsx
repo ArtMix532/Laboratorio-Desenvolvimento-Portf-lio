@@ -9,11 +9,11 @@ const ROUTES = {
 };
 
 const links = [
-  { id: 1, name: "Home", url: "#Home" },
-  { id: 2, name: "About Me", url: "#About" },
-  { id: 3, name: "Resume", url: "#Resume" },
-  { id: 4, name: "Contact", url: "#Contacts" },
-  { id: 5, name: "Projects", url: "#Projects" },
+  { id: 1, name: "Home", url: "#home" },
+  { id: 2, name: "About Me", url: "#about" },
+  { id: 3, name: "Resume", url: "#resume" },
+  { id: 4, name: "Contact", url: "#contact" },
+  { id: 5, name: "Projects", url: "#projects" },
 ];
 
 const Nav = () => {
@@ -35,29 +35,13 @@ const Nav = () => {
   }, []);
 
   return (
-    <header className="absolute bg-slate-300 w-full">
-      {/* Menu para Desktop */}
-      <div className="hidden md:flex py-5 justify-center border-b">
-        <div className="container px-10 lg:px-4 max-w-screen-xl flex justify-between">
-          {/* <Link to={ROUTES.HOME} className="duration-200 select-none">
-            <h1 className="text-2xl font-semibold font-ubuntu text-primary">
-              Davi Benjamim
-            </h1>
-          </Link> */}
-          <img src={Logo} alt="" className=" h-10 flex justify-center" />
+    <header className="absolute w-full">
+      <div className="hidden md:flex justify-center">
+        <div className="container py-5 px-10 lg:px-4 max-w-screen-xl flex justify-between">
+          <img src={Logo} alt="" className=" w-32 h-16  flex justify-center" />
           <ul className="flex items-center gap-4">
             {links.map((item) => (
-              <Link
-                key={item.id}
-                to={item.url} // 4. "href" foi trocado por "to"
-                className={`text-xs font-ubuntu sm:text-base hover:[transform:translateY(-0.25rem)] ${
-                  pathname === item.url // Lógica de link ativo ajustada para ser mais precisa
-                    ? "font-semibold text-primary"
-                    : "text-muted-foreground"
-                } transition duration-300`}
-              >
-                {item.name}
-              </Link>
+              <a href={item.url} className="btn text-lg btn-ghost hover:text-neutral text-neutral-content font-ubuntu">{item.name}</a>
             ))}
           </ul>
         </div>
@@ -66,11 +50,6 @@ const Nav = () => {
       {/* Header para Mobile */}
       <div className="md:hidden bg-slate-300 absolute py-5 w-full justify-center border-b">
         <div className="container pl-10 pr-7 lg:px-0 flex justify-between items-center">
-          {/* <Link to={ROUTES.HOME} className="">
-            <h1 className="text-2xl font-ubuntu font-semibold text-primary">
-              Davi Benjamim
-            </h1>
-          </Link> */}
           <img src={Logo} alt="" className=" h-8 flex justify-center" />
           <div
             onClick={() => setNav((prev) => !prev)}
@@ -83,7 +62,7 @@ const Nav = () => {
 
       {/* Menu Dropdown Mobile */}
       {nav && (
-        <ul className="md:hidden transition duration-200 bg-slate-100 border p-2 flex flex-col items-left absolute z-30 top-[72px] right-0 w-[200px] bg-background">
+        <ul className="md:hidden transition duration-200 bg-slate-300 border p-2 flex flex-col rounded-b items-left absolute z-30 top-[72px] right-0 w-[200px] bg-background">
           {links.map(({ id, url, name }) => (
             <li
               key={id}

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CV from "../assets/CVDaviBenjamim.pdf";
+import CV from "../assets/CVDaviGuimaraes.pdf";
 import CV2 from "../assets/CV-PT.pdf";
 
 export default function PdfViewer() {

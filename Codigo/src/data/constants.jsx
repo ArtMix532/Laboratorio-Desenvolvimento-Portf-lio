@@ -33,8 +33,8 @@ export const Time_Line = [
         />
       </svg>
     ),
-    title: "Escola",
-    text: "Santa Mamnaf",
+    title: "School",
+    text: "Escola Estadual de Melo Viana, Esmeraldas - MG",
   },
   {
     icon: (
@@ -74,6 +74,6 @@ export const Time_Line = [
       </svg>
     ),
     title: "Estágio ",
-    text: " CGE-MG",
+    text: "Intern Fullstack in Controladoria Geral do Estado de Minas Gerais (CGE-MG), set 2024 - current",
   },
 ];
