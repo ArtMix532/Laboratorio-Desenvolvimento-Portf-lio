@@ -2,7 +2,7 @@ import CV from "../assets/CVDaviGuimaraesIN.pdf";
 
 const PdfViewer = () => {
   return (
-    <div className="flex justify-center items-center h-screen flex-col gap-2">
+    <div className="flex justify-center items-center h-screen flex-col gap-2 px-6 lg:px-0 ">
       <div>
         <button className="lg:w-72 w-40 border-2 border-Neutral-400 font-ubuntu  p-4 bg-gray-300 hover:border-Neutral-400 text-xl font-bold">
           Portuguese
