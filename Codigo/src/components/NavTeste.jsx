@@ -9,11 +9,11 @@ const ROUTES = {
 };
 
 const links = [
-  { id: 1, name: "Home", url: "#Home" },
-  { id: 2, name: "About Me", url: "#About" },
-  { id: 3, name: "Resume", url: "#Resume" },
-  { id: 4, name: "Contact", url: "#Contacts" },
-  { id: 5, name: "Projects", url: "#Projects" },
+  { id: 1, name: "Home", url: "#home" },
+  { id: 2, name: "About Me", url: "#about" },
+  { id: 3, name: "Resume", url: "#resume" },
+  { id: 4, name: "Contact", url: "#contact" },
+  { id: 5, name: "Projects", url: "#projects" },
 ];
 
 const Nav = () => {
@@ -47,17 +47,7 @@ const Nav = () => {
           <img src={Logo} alt="" className=" h-10 flex justify-center" />
           <ul className="flex items-center gap-4">
             {links.map((item) => (
-              <Link
-                key={item.id}
-                to={item.url} // 4. "href" foi trocado por "to"
-                className={`text-xs font-ubuntu sm:text-base hover:[transform:translateY(-0.25rem)] ${
-                  pathname === item.url // Lógica de link ativo ajustada para ser mais precisa
-                    ? "font-semibold text-primary"
-                    : "text-muted-foreground"
-                } transition duration-300`}
-              >
-                {item.name}
-              </Link>
+              <a href={item.url} className="btn btn-ghost font-ubuntu">{item.name}</a>
             ))}
           </ul>
         </div>

@@ -4,7 +4,7 @@ import { TimelineWithIcon } from "./TimeLine";
 
 function About() {
   return (
-    <div id="About" className=" w-screen bg-slate-300">
+    <div id="about" className=" w-full bg-slate-300">
       <div className="px-10 lg:px-32">
         <div className="flex flex-row ">
           <PageTitle title="About me" />

@@ -58,7 +58,7 @@ export function Contact() {
 
   return (
     <>
-      <div id="Contact" className=" w-screen bg-slate-700 pt-8">
+      <div id="contact" className=" bg-slate-700 pt-8">
         <div className="px-6 lg:px-32 pb-6">
           <div className="flex mb-4">
             <h1 className="text-gray-400 font-bold text-3xl font-ubuntu">
@@ -93,34 +93,28 @@ export function Contact() {
                   </div>
                 </div>
               </div>
-
-              <div className="flex justify-between lg:gap-4 gap-3 mx-auto lg:w-[80%]">
-                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
+              
+              <div className="flex justify-between lg:gap-4 mx-auto lg:w-[80%]">
+                <div className=" py-5 px-10 rounded-xl bg-neutral">
                   <a href={Links.Github}>
                     {" "}
-                    <Github color="#334155" />
+                    <Github color="#fff" />
                   </a>
                 </div>
-                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
-                  <a href={Links.Email}>
-                    <Mail color="#334155" />
-                  </a>
-                </div>
-                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
+                <div className=" py-5 px-10 rounded-xl bg-gradient-to-br from-[#b60fcf]  to-[#fd7601]">
                   <a href={Links.Instagram}>
-                    <Instagram color="#334155" />
+                    <Instagram color="#fff" />
                   </a>
                 </div>
-                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
+                <div className=" py-5 px-10 rounded-xl bg-[#2F2F2F]">
+                  <a href={Links.Email}>
+                    <Mail color="#fff" />
+                  </a>
+                </div>
+                <div className=" py-5 px-10 rounded-xl bg-[#0967C2]">
                   <a href={Links.Linkedin}>
                     {" "}
-                    <Linkedin color="#334155" />
-                  </a>
-                </div>
-                <div className="bg-gray-300 p-3 border-2 rounded-xl border-Neutral-400  hover:border-Neutral-400 active:bg-Neutral-200 hover:bg-gray-200">
-                  <a href={USER_INFO.phone}>
-                    {" "}
-                    <Phone color="#334155" />
+                    <Linkedin color="#fff" />
                   </a>
                 </div>
               </div>
@@ -133,25 +127,15 @@ export function Contact() {
             <div className="card card-dash bg-neutral-content text-neutral w-full lg:w-1/2 font-ubuntu">
               <div className="card-body justify-between gap-5">
                 <div className="grid gap-5">
-                  <div className="flex gap-5 justify-between ">
-                    <fieldset className="fieldset">
+                  <div className="flex gap-5 justify-between">
+                    <fieldset className="fieldset w-1/2">
                       <legend className="fieldset-legend">Name</legend>
-                      <input
-                        id="nome"
-                        type="text"
-                        className="input"
-                        placeholder="Your full name"
-                      />
+                      <input type="text" className="input w-full" placeholder="Your full name" />
                     </fieldset>
 
-                    <fieldset className="fieldset">
+                    <fieldset className="fieldset w-1/2">
                       <legend className="fieldset-legend">Email</legend>
-                      <input
-                        id="email"
-                        type="text"
-                        className="input"
-                        placeholder="your.email@example.com"
-                      />
+                      <input type="text" className="input w-full" placeholder="your.email@example.com" />
                     </fieldset>
                   </div>
 
