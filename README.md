@@ -54,5 +54,5 @@ Caso queira entrar em contato conosco:
   
 - 🐙 GitHub:\
   [Jonas Rafael Martins](https://github.com/Kjonps)\
-  [Davi Benjamim Guimarães](https://www.linkedin.com/in/jonas-martins-158544178/)\
-  [Albert Luís Pereira de Jesus](https://www.linkedin.com/in/jonas-martins-158544178/)
+  [Davi Benjamim Guimarães](https://github.com/ArtMix532)\
+  [Albert Luís Pereira de Jesus](https://github.com/SrGuzz)
