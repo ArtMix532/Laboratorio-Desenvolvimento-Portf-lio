@@ -40,7 +40,6 @@ export function Contact() {
       });
 
       if (resposta.ok) {
-        alert("Mensagem enviada com sucesso!");
         // Opcional: Limpar o formulário após o envio
         document.getElementById("nome").value = "";
         document.getElementById("email").value = "";
@@ -62,7 +61,9 @@ export function Contact() {
       <div id="Contact" className=" w-screen bg-slate-700 pt-8">
         <div className="px-6 lg:px-32 pb-6">
           <div className="flex mb-4">
-            <h1 className="text-gray-400 font-bold text-3xl font-ubuntu">Contact</h1>
+            <h1 className="text-gray-400 font-bold text-3xl font-ubuntu">
+              Contact
+            </h1>
           </div>
 
           <div className="flex gap-4 m-auto flex-col lg:flex-row">
@@ -174,7 +175,7 @@ export function Contact() {
                 <div className="card-actions justify-end">
                   <button
                     className="btn bg-slate-700 text-neutral-content w-full"
-                    onClick={enviarMensagem()}
+                    onClick={enviarMensagem}
                   >
                     Send Message
                   </button>
