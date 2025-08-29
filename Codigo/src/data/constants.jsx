@@ -1,18 +1,17 @@
 export const USER_INFO = {
-  name: "Davi Benjamim Guimaraes",
-  phone: "+55 (31) 98496-7344",
-  age: 19,
+  name: "Albert Luis",
+  phone: "+55 (31) 99866-3664",
+  age: 22,
   address: "Belo Horizonte, Brasil",
-  email: "davibenjamimguimaraes@gmail.com",
+  email: "albertluis123y88@gmail.com",
   university: "PUC-MG",
 };
 
 export const Links = {
-  Instagram: "https://www.instagram.com/davibenjamimg/",
-  Linkedin:
-    "https://www.linkedin.com/in/davi-benjamim-guimar%C3%A3es-b82741288/",
-  Github: "https://github.com/ArtMix532",
-  Email: "mailto:davibenjamimguimaraes@gmail.com",
+  Instagram: "https://www.instagram.com/albertluis__/",
+  Linkedin: "https://www.linkedin.com/in/albert-luis-053177209/",
+  Github: "https://github.com/SrGuzz",
+  Email: "mailto:albertluis123y88@gmail.com",
 };
 
 //caso queiram trocar algum icon o link do site: https://heroicons.com/outline
@@ -55,7 +54,7 @@ export const Time_Line = [
       </svg>
     ),
     title: "Faculdade",
-    text: "Santa Mamnaf",
+    text: "PUC Minas",
   },
   {
     icon: (
@@ -75,6 +74,6 @@ export const Time_Line = [
       </svg>
     ),
     title: "Estágio ",
-    text: " ssudusdjusdju",
+    text: " CGE-MG",
   },
 ];
