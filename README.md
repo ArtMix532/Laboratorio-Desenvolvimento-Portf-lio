@@ -32,7 +32,7 @@ Este é o nosso portfólio desenvolvido em **React**, com o objetivo de apresent
 ## 🌐 Deploy  
 O projeto será disponibilizado online para acesso direto, sem necessidade de instalação.   
 
- [Davi Benjamim Guimarães](https://portifolio-eta-virid.vercel.app/)\
+ [Davi Benjamim Guimarães](https://portifolio-eta-virid.vercel.app/)
 
 ## 📸 Preview  
 <img src="image/wireframe.png" alt="wireframe do projeto"> 
